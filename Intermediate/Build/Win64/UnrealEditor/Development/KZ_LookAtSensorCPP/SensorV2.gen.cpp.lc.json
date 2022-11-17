@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\intermediate\\build\\win64\\unrealeditor\\inc\\kz_lookatsensorcpp\\sensorv2.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\intermediate\\build\\win64\\kz_lookatsensorcppeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\intermediate\\build\\win64\\unrealeditor\\development\\kz_lookatsensorcpp\\definitions.kz_lookatsensorcpp.h",
+            "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\source\\kz_lookatsensorcpp\\sensorv2.h",
+            "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\intermediate\\build\\win64\\unrealeditor\\inc\\kz_lookatsensorcpp\\sensorv2.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "KZ_LookAtSensorCPP",
+			"Path": "C:\\Users\\kylez\\Documents\\Unreal Projects\\KZ_LookAtSensorCPP\\Source\\KZ_LookAtSensorCPP.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "KZ_LookAtSensorCPPEditor",
+			"Path": "C:\\Users\\kylez\\Documents\\Unreal Projects\\KZ_LookAtSensorCPP\\Source\\KZ_LookAtSensorCPPEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
