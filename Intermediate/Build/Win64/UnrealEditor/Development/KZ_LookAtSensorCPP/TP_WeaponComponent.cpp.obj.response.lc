@@ -1,4 +1,4 @@
-"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\Source\KZ_LookAtSensorCPP\TP_WeaponComponent.cpp"
+"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Source\KZ_LookAtSensorCPP\TP_WeaponComponent.cpp"
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
 /I Runtime
@@ -251,8 +251,8 @@
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
-/I "C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\Intermediate\Build\Win64\UnrealEditor\Inc\KZ_LookAtSensorCPP"
-/I "C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\Source"
+/I "C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\UnrealEditor\Inc\KZ_LookAtSensorCPP"
+/I "C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Source"
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MRMesh
@@ -277,12 +277,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\Intermediate\Build\Win64\KZ_LookAtSensorCPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\Definitions.KZ_LookAtSensorCPP.h"
-/Yu"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\Intermediate\Build\Win64\KZ_LookAtSensorCPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\Intermediate\Build\Win64\KZ_LookAtSensorCPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\TP_WeaponComponent.cpp.lc.obj"
-/sourceDependencies"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\TP_WeaponComponent.cpp.lc.json"
+/FI"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\KZ_LookAtSensorCPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\Definitions.KZ_LookAtSensorCPP.h"
+/Yu"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\KZ_LookAtSensorCPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\KZ_LookAtSensorCPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\TP_WeaponComponent.cpp.lc.obj"
+/sourceDependencies"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\TP_WeaponComponent.cpp.lc.json"
 /Zc:inline
 /nologo
 /Oi

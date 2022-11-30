@@ -5,13 +5,15 @@
 #include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
+#include "Components/SphereComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/InputSettings.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Kismet/GameplayStatics.h"
 #include "MotionControllerComponent.h"
-#include "XRMotionControllerBase.h"
+//#include "XRMotionControllerBase.h"
 #include "DrawDebugHelpers.h" // ADDED BY KZ
+#include "Engine/World.h" // ADDED BY KZ
 
 //////////////////////////////////////////////////////////////////////////
 // AKZ_LookAtSensorCPPCharacter
@@ -44,6 +46,63 @@ AKZ_LookAtSensorCPPCharacter::AKZ_LookAtSensorCPPCharacter()
 // ADDED BY KZ
 void AKZ_LookAtSensorCPPCharacter::Tick(float DeltaTime)
 {
+	/******************************************************
+	** Implementation for 11/28 Submission using Raycast **
+	******************************************************/
+
+	Super::Tick(DeltaTime);
+
+	FHitResult OutHit;
+
+	// GET PLAYER LOCATION
+	FVector Start = GetLocation();
+
+	// GET VECTOR IN DIRECTION THAT PLAYER IS LOOKING
+	FVector playerForward = GetForward();
+
+	// GENERATE VECTOR POINTING FROM PLAYER TO END POINT
+	FVector End = (Start + (playerForward * 1000.0f));
+
+	FCollisionQueryParams CollisionParams;
+
+	// DRAW LINE FROM CAMERA (COLOR PURPLE)
+	DrawDebugLine(GetWorld(), Start, End, FColor::Purple, false, 1, 0, 1);
+
+	bool isHit = GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams);
+
+	if (isHit)
+	{
+		// OutHit.bBlockingHit // actually hit something
+		// OutHit.Normal // normal of the surface hit
+		// OutHit.ImpactPoint // point in space where the raycast hit
+
+		if (OutHit.bBlockingHit)
+		{
+			if (GEngine)
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, FString::Printf(TEXT("You are hitting: %s"),
+					*OutHit.GetActor()->GetName()));
+				GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, FString::Printf(TEXT("Impact Point: %s"), 
+					*OutHit.ImpactPoint.ToString()));
+				GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, FString::Printf(TEXT("Normal Point: %s"),
+					*OutHit.ImpactNormal.ToString()));
+
+				// GET NORMAL, THEN DRAW NORMAL VECTOR FROM IMPACT POINT (COLOR BLUE)
+				FVector NormalV = OutHit.ImpactNormal; 
+				DrawDebugLine(GetWorld(), OutHit.ImpactPoint, OutHit.ImpactPoint + (NormalV * 500.f), FColor::Blue, false, 1, 0, 1);
+
+				// CALCULATE REFLECTED VECTOR, THEN DRAW IT FROM IMPACT POINT (COLOR RED)
+				FVector ReflectV = End - (2 * FVector::DotProduct(NormalV, End) * NormalV);
+				DrawDebugLine(GetWorld(), OutHit.ImpactPoint, ReflectV, FColor::Red, false, 1, 0, 1);
+			}
+		}
+	}
+
+
+	/*********************************************************
+	** Implementation for 11/21 Submission using DotProduct **
+	**********************************************************
+	
 	Super::Tick(DeltaTime); // CALLING TICK FUNCTIONALITY FROM PARENT CLASS TO MAINTAIN FUNCTIONALITY
 
 	// TESTING
@@ -52,7 +111,7 @@ void AKZ_LookAtSensorCPPCharacter::Tick(float DeltaTime)
 	// GET ACTOR LOCATION, GET SENSOR LOCATION, DRAW LINE BETWEEN THEM
 	FVector playerPos = GetLocation();
 	FVector center = GetSensorLocation();
-	DrawDebugLine(GetWorld(), playerPos, center, FColor::Cyan, false, 0.25f);
+	DrawDebugLine(GetWorld(), playerPos, center, FColor::Cyan, false, 0.25f, (uint8)'\000', 0.25f);
 	
 	// GET VECTOR IN DIRECTION THAT PLAYER IS LOOKING
 	FVector playerForward = GetForward();
@@ -80,8 +139,18 @@ void AKZ_LookAtSensorCPPCharacter::Tick(float DeltaTime)
 	bool isLooking = lookness >= preciseness;
 
 	// LOGIC FOR DETERMINING IF WE ARE ON TARGET AND CHANGING LINE COLOR ACCORDINGLY
-	if (isLooking) DrawDebugLine(GetWorld(), playerPos, playerPos + playerForward * lineDistance, FColor::Green, false, 0.25f);
-	else DrawDebugLine(GetWorld(), playerPos, playerPos + playerForward * lineDistance, FColor::Red, false, 0.25f);
+	if (isLooking)
+	{
+		//DrawDebugLine(GetWorld(), playerPos, playerPos + playerForward * lineDistance, FColor::Green, false, 0.25f);
+		//DrawDebugLine(GetWorld(), playerPos, playerPos + playerForward * lineDistance, FColor::Green, false, .25f, ECC_WorldStatic, .5f);
+		DrawDebugLine(GetWorld(), playerPos, playerPos + playerForward * lineDistance, FColor::Green, false, 0.25f, (uint8)'\000', 0.25f);
+	}
+	else
+	{
+		//DrawDebugLine(GetWorld(), playerPos, playerPos + playerForward * lineDistance, FColor::Red, false, 0.25f);
+		DrawDebugLine(GetWorld(), playerPos, playerPos + playerForward * lineDistance, FColor::Red, false, 0.25f, (uint8)'\000', 0.25f);
+	}
+	*/
 
 }
 /////////////////////////////

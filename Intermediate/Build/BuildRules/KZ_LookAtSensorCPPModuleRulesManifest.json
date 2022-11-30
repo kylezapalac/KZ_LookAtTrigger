@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\kylez\\Documents\\Unreal Projects\\KZ_LookAtSensorCPP\\Source\\KZ_LookAtSensorCPP\\KZ_LookAtSensorCPP.Build.cs",
-		"C:\\Users\\kylez\\Documents\\Unreal Projects\\KZ_LookAtSensorCPP\\Source\\KZ_LookAtSensorCPP.Target.cs",
-		"C:\\Users\\kylez\\Documents\\Unreal Projects\\KZ_LookAtSensorCPP\\Source\\KZ_LookAtSensorCPPEditor.Target.cs"
+		"C:\\Users\\kylez\\Documents\\Unreal Projects\\KZ_LookAtSensorCPP\\KZ_LookAtTrigger\\Source\\KZ_LookAtSensorCPP\\KZ_LookAtSensorCPP.Build.cs",
+		"C:\\Users\\kylez\\Documents\\Unreal Projects\\KZ_LookAtSensorCPP\\KZ_LookAtTrigger\\Source\\KZ_LookAtSensorCPP.Target.cs",
+		"C:\\Users\\kylez\\Documents\\Unreal Projects\\KZ_LookAtSensorCPP\\KZ_LookAtTrigger\\Source\\KZ_LookAtSensorCPPEditor.Target.cs"
 	],
 	"EngineVersion": "5.0.3"
 }

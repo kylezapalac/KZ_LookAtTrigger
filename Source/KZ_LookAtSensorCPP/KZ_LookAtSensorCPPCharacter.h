@@ -39,7 +39,7 @@ public:
 	AKZ_LookAtSensorCPPCharacter();
 
 	// ADDED BY KZ
-	void Tick(float DeltaTime);
+	virtual void Tick(float DeltaTime) override;
 	/////////////////////////////
 
 protected:

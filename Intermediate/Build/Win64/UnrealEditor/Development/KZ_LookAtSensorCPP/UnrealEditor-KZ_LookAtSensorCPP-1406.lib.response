@@ -1,0 +1,23 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-KZ_LookAtSensorCPP-1406.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\KZ_LookAtSensorCPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\KZ_LookAtSensorCPP.cpp.obj"
+"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\KZ_LookAtSensorCPPCharacter.cpp.obj"
+"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\KZ_LookAtSensorCPPGameMode.cpp.obj"
+"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\KZ_LookAtSensorCPPProjectile.cpp.obj"
+"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\TP_PickUpComponent.cpp.obj"
+"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\TP_WeaponComponent.cpp.obj"
+"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\KZ_LookAtSensorCPP.init.gen.cpp.obj"
+"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\KZ_LookAtSensorCPPCharacter.gen.cpp.obj"
+"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\KZ_LookAtSensorCPPGameMode.gen.cpp.obj"
+"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\KZ_LookAtSensorCPPProjectile.gen.cpp.obj"
+"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\TP_PickUpComponent.gen.cpp.obj"
+"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\TP_WeaponComponent.gen.cpp.obj"
+"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\Default.rc2.res"
+/OUT:"C:\Users\kylez\Documents\Unreal Projects\KZ_LookAtSensorCPP\KZ_LookAtTrigger\Intermediate\Build\Win64\UnrealEditor\Development\KZ_LookAtSensorCPP\UnrealEditor-KZ_LookAtSensorCPP-1406.lib"

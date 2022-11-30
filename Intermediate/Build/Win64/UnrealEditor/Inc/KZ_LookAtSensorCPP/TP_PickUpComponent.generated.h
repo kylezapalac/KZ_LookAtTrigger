@@ -17,7 +17,7 @@ struct FHitResult;
 #endif
 #define KZ_LOOKATSENSORCPP_TP_PickUpComponent_generated_h
 
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_12_DELEGATE \
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_12_DELEGATE \
 struct _Script_KZ_LookAtSensorCPP_eventOnPickUp_Parms \
 { \
 	AKZ_LookAtSensorCPPCharacter* PickUpCharacter; \
@@ -30,18 +30,18 @@ static inline void FOnPickUp_DelegateWrapper(const FMulticastScriptDelegate& OnP
 }
 
 
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_SPARSE_DATA
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_RPC_WRAPPERS \
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_SPARSE_DATA
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnSphereBeginOverlap);
 
 
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnSphereBeginOverlap);
 
 
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTP_PickUpComponent(); \
 	friend struct Z_Construct_UClass_UTP_PickUpComponent_Statics; \
@@ -50,7 +50,7 @@ public: \
 	DECLARE_SERIALIZER(UTP_PickUpComponent)
 
 
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_INCLASS \
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesUTP_PickUpComponent(); \
 	friend struct Z_Construct_UClass_UTP_PickUpComponent_Statics; \
@@ -59,7 +59,7 @@ public: \
 	DECLARE_SERIALIZER(UTP_PickUpComponent)
 
 
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_STANDARD_CONSTRUCTORS \
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTP_PickUpComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTP_PickUpComponent) \
@@ -72,7 +72,7 @@ private: \
 public:
 
 
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UTP_PickUpComponent(UTP_PickUpComponent&&); \
@@ -83,25 +83,25 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTP_PickUpComponent)
 
 
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_14_PROLOG
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_GENERATED_BODY_LEGACY \
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_14_PROLOG
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_SPARSE_DATA \
-	FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_RPC_WRAPPERS \
-	FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_INCLASS \
-	FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_STANDARD_CONSTRUCTORS \
+	FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_SPARSE_DATA \
+	FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_RPC_WRAPPERS \
+	FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_INCLASS \
+	FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_GENERATED_BODY \
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_SPARSE_DATA \
-	FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_INCLASS_NO_PURE_DECLS \
-	FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_ENHANCED_CONSTRUCTORS \
+	FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_SPARSE_DATA \
+	FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_INCLASS_NO_PURE_DECLS \
+	FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -109,7 +109,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> KZ_LOOKATSENSORCPP_API UClass* StaticClass<class UTP_PickUpComponent>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h
+#define CURRENT_FILE_ID FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_PickUpComponent_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

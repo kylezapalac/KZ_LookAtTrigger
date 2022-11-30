@@ -14,22 +14,22 @@ class AKZ_LookAtSensorCPPCharacter;
 #endif
 #define KZ_LOOKATSENSORCPP_TP_WeaponComponent_generated_h
 
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_SPARSE_DATA
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_RPC_WRAPPERS \
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_SPARSE_DATA
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execEndPlay); \
 	DECLARE_FUNCTION(execFire); \
 	DECLARE_FUNCTION(execAttachWeapon);
 
 
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execEndPlay); \
 	DECLARE_FUNCTION(execFire); \
 	DECLARE_FUNCTION(execAttachWeapon);
 
 
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTP_WeaponComponent(); \
 	friend struct Z_Construct_UClass_UTP_WeaponComponent_Statics; \
@@ -38,7 +38,7 @@ public: \
 	DECLARE_SERIALIZER(UTP_WeaponComponent)
 
 
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_INCLASS \
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesUTP_WeaponComponent(); \
 	friend struct Z_Construct_UClass_UTP_WeaponComponent_Statics; \
@@ -47,7 +47,7 @@ public: \
 	DECLARE_SERIALIZER(UTP_WeaponComponent)
 
 
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_STANDARD_CONSTRUCTORS \
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTP_WeaponComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTP_WeaponComponent) \
@@ -60,7 +60,7 @@ private: \
 public:
 
 
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UTP_WeaponComponent(UTP_WeaponComponent&&); \
@@ -71,25 +71,25 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTP_WeaponComponent)
 
 
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_11_PROLOG
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_GENERATED_BODY_LEGACY \
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_11_PROLOG
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_SPARSE_DATA \
-	FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_RPC_WRAPPERS \
-	FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_INCLASS \
-	FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_STANDARD_CONSTRUCTORS \
+	FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_SPARSE_DATA \
+	FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_RPC_WRAPPERS \
+	FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_INCLASS \
+	FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_GENERATED_BODY \
+#define FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_SPARSE_DATA \
-	FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_INCLASS_NO_PURE_DECLS \
-	FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_ENHANCED_CONSTRUCTORS \
+	FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_SPARSE_DATA \
+	FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_INCLASS_NO_PURE_DECLS \
+	FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -97,7 +97,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> KZ_LOOKATSENSORCPP_API UClass* StaticClass<class UTP_WeaponComponent>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_KZ_LookAtSensorCPP_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h
+#define CURRENT_FILE_ID FID_KZ_LookAtTrigger_Source_KZ_LookAtSensorCPP_TP_WeaponComponent_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

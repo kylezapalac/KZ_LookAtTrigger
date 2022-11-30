@@ -1,13 +1,13 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\source\\kz_lookatsensorcpp\\kz_lookatsensorcppprojectile.cpp",
+        "Source": "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\kz_lookattrigger\\source\\kz_lookatsensorcpp\\kz_lookatsensorcppprojectile.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\intermediate\\build\\win64\\kz_lookatsensorcppeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\kz_lookattrigger\\intermediate\\build\\win64\\kz_lookatsensorcppeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\intermediate\\build\\win64\\unrealeditor\\development\\kz_lookatsensorcpp\\definitions.kz_lookatsensorcpp.h",
-            "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\source\\kz_lookatsensorcpp\\kz_lookatsensorcppprojectile.h",
-            "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\intermediate\\build\\win64\\unrealeditor\\inc\\kz_lookatsensorcpp\\kz_lookatsensorcppprojectile.generated.h",
+            "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\kz_lookattrigger\\intermediate\\build\\win64\\unrealeditor\\development\\kz_lookatsensorcpp\\definitions.kz_lookatsensorcpp.h",
+            "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\kz_lookattrigger\\source\\kz_lookatsensorcpp\\kz_lookatsensorcppprojectile.h",
+            "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\kz_lookattrigger\\intermediate\\build\\win64\\unrealeditor\\inc\\kz_lookatsensorcpp\\kz_lookatsensorcppprojectile.generated.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\projectilemovementcomponent.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\movementcomponent.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\movementcomponent.generated.h",

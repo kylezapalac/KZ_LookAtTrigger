@@ -1,13 +1,13 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\intermediate\\build\\win64\\unrealeditor\\inc\\kz_lookatsensorcpp\\tp_weaponcomponent.gen.cpp",
+        "Source": "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\kz_lookattrigger\\intermediate\\build\\win64\\unrealeditor\\inc\\kz_lookatsensorcpp\\tp_weaponcomponent.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\intermediate\\build\\win64\\kz_lookatsensorcppeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\kz_lookattrigger\\intermediate\\build\\win64\\kz_lookatsensorcppeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\intermediate\\build\\win64\\unrealeditor\\development\\kz_lookatsensorcpp\\definitions.kz_lookatsensorcpp.h",
-            "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\source\\kz_lookatsensorcpp\\tp_weaponcomponent.h",
-            "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\intermediate\\build\\win64\\unrealeditor\\inc\\kz_lookatsensorcpp\\tp_weaponcomponent.generated.h"
+            "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\kz_lookattrigger\\intermediate\\build\\win64\\unrealeditor\\development\\kz_lookatsensorcpp\\definitions.kz_lookatsensorcpp.h",
+            "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\kz_lookattrigger\\source\\kz_lookatsensorcpp\\tp_weaponcomponent.h",
+            "c:\\users\\kylez\\documents\\unreal projects\\kz_lookatsensorcpp\\kz_lookattrigger\\intermediate\\build\\win64\\unrealeditor\\inc\\kz_lookatsensorcpp\\tp_weaponcomponent.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
